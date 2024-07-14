@@ -47,7 +47,7 @@ Example
 cd scripts
 ./deploy.sh ../container-app
 
-This will:
+#This will:
 
 Initialize the Terraform configuration in the container-app folder.
 Create a plan for the changes required to reach the desired state defined in the Terraform configuration.
@@ -58,5 +58,5 @@ The deploy.sh script assumes that the path provided is relative to the location 
 Contributing
 Feel free to contribute to this repository by adding new use cases or improving existing configurations. Please ensure that each new use case has a corresponding folder with a terraform.tfvars example.
 
-License
+#License
 This repository is licensed under the MIT License. See the LICENSE file for more details.
