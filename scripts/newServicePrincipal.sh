@@ -1,0 +1,1 @@
+az ad sp create-for-rbac --name "svc-terraform-svc-principal" --role="Contributor" --scopes="/subscriptions/XXX"
