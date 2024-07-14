@@ -66,8 +66,8 @@ Navigate to the scripts folder and execute the deploy.sh script, providing the p
 
 #### Example
 ```
-cd scripts
-./deploy.sh ../container-app
+cd container-app
+sh ..\scripts\deploy.sh .
 ``` 
 This will:
 Initialize the Terraform configuration in the container-app folder.
