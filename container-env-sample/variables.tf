@@ -28,18 +28,6 @@ variable "containerEnvironmentName" {
   default     = "tmoSampleContainerEnvironment"
 }
 
-variable "containerEnvironmentSubnetId" {
-  description = "Container Environment Subnet ID"
-  type        = string
-  default     = "/subscriptions/86ee32c6-1d3a-4adc-8413-bdfa33d69328/resourceGroups/ilumiare-patient-app-rg/providers/Microsoft.Network/virtualNetworks/default-vnet/subnets/default"
-}
-
-variable "vNetName" {
-  description = "Subscription default VNET Name"
-  type        = string
-  default     = "default-vnet"
-}
-
 variable "client_id" {}
 variable "client_secret" {}
 variable "subscription_id" {}
