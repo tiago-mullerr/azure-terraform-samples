@@ -10,6 +10,9 @@ TF_DIR=$1
 # Initialize Terraform
 terraform -chdir=$TF_DIR init
 
+# Refresh Plan
+terraform -chdir=$TF_DIR refresh
+
 # Create an execution plan
 terraform -chdir=$TF_DIR plan -out=tfplan
 
