@@ -28,6 +28,12 @@ variable "containerEnvironmentName" {
   default     = "tmoSampleContainerEnvironment"
 }
 
+variable "stateStorageContainerName" {
+  description = "Terraform State Storage Container Name"
+  type        = string
+  default     = "container-app-sample-tfstate"
+}
+
 variable "client_id" {}
 variable "client_secret" {}
 variable "subscription_id" {}

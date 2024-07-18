@@ -36,3 +36,8 @@ terraform.tfvars
 
 *tfplan*
 container-env-sample/.terraform.lock.hcl
+
+TMOSampleAPI/TMOSampleAPI/obj/*
+TMOSampleAPI/TMOSampleAPI/bin/*
+TMOSampleAPI/.vs/*
+*.user

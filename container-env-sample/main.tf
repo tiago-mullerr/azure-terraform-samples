@@ -52,3 +52,12 @@ resource "azurerm_container_app_environment" "ace" {
     azurerm_subnet.default
   ]  
 }
+
+# // AZURE STORAGE ACCOUNT FOR STORING TERRAFORM STATE
+# resource "azurerm_storage_account" "asa" {
+#   name                     = "terraform-sample-storage-acc"
+#   resource_group_name      = azurerm_resource_group.rg.name
+#   location                 = var.location
+#   account_tier             = "Standard"
+#   account_replication_type = "LRS"
+# }
